@@ -1,0 +1,46 @@
+.dashboard-menu-active {
+  background: #FFF1E7;
+  padding: 8px;
+  /* border-radius: 5px; */
+  color: #FE634E;
+}
+
+.card-dash {
+  width: 5px;
+  border: 1px solid rgb(0, 177, 192);
+  height: 20px;
+  background: rgb(0, 177, 192);
+}
+
+
+.glide__arrow {
+  position: absolute;
+  display: block;
+  top: 50%;
+  z-index: 2;
+  opacity: 1;
+  transform: translateY(-50%);
+}
+
+.menu-content:hover,
+.menu-content.active {
+  background: #FFF8F2;
+  color: #FE634E;
+}
+
+
+.program-status .activity-name {
+  cursor: pointer;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 120px;
+  white-space: nowrap;
+}
+
+.program-status .activity-msg{
+  cursor: pointer;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 120px;
+  white-space: nowrap;
+}

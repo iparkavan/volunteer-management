@@ -1,0 +1,7 @@
+.calendar-control input{
+    background: transparent;
+}
+
+.p-calendar:not(.p-calendar-disabled).p-focus > .p-inputtext {
+    box-shadow: none;
+}

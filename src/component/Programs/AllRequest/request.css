@@ -1,0 +1,21 @@
+.notify-icon {
+    background: rgba(253, 0, 58, 1);
+    top: -2px;
+    position: absolute;
+    padding: 4px;
+    border-radius: 50%;
+    right: 0px;
+    animation: blink 2s ease-in infinite;
+}
+
+@keyframes blink {
+
+    from,
+    to {
+        opacity: 1
+    }
+
+    50% {
+        opacity: 0
+    }
+}

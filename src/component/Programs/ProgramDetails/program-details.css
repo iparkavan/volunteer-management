@@ -1,0 +1,16 @@
+.tab-active {
+    background: #FE634E;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+}
+
+.tab {
+    border-radius: 30px;
+    border: 1px solid rgba(24, 40, 61, 0.75);
+    background: #fff;
+}
+
+.certificate-tab-content{
+    background: rgba(217, 228, 242, 0.5);
+}
